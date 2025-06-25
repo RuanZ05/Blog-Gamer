@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    background-color: #333333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white; 
+}
+
+
+.header{
+    background-color: #1a1a1a;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.post p{
+    margin: 10px 0;
+}
+
+.menu, .logo{
+    padding: 10px;
+}
+
+@keyframes pulse-forward-back {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.pulse-simple {
+  animation: pulse-forward-back 2s ease-in-out infinite;
+}
+
+.menu a, .menu a:visited{
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: #1a1a1a;
+}
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.posts {
+    width: 660px;
+    float: left;
+}
+
+.post{
+    background-color: #1a1a1a;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: white;
+}
+
+
+.data-post{
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.barra-lateral{
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral{
+    background-color: #1a1a1a;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral h3{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 5px;
+}
+
+.post-destaque{
+    font-size: 0.8em;
+    padding: 20px 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.post-destaque h4{
+    color: #a64cff;
+}
+
+.post-destaque:last-child{
+    border: none;
+}
+
+.footer{
+    clear: both;
+    background-color: #1a1a1a;
+    padding: 15px;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+}
+
+.post a,
+.post-destaque a,
+.conteudo-lateral a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.post a:hover,
+.post-destaque a:hover,
+.conteudo-lateral a:hover {
+    color: #a64cff;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-text {
+  background-color: #a64cff;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 2.4rem;
+  box-shadow: 0 0 15px #a64cff;
+}
+
+.logo-img {
+    height: auto;
+    width: 120px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.social-icons {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-30%);
+    display: flex;
+    gap: 10px;
+    font-size: 23px;
+}
+
+.social-icons {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a:hover {
+    color: #ffffffcc;
+}
+
+#enquete-form label {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 8px;
+}
+
+#enquete-form button {
+    background-color: #a64cff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+#enquete-form button:hover {
+    background-color: #8e3de6;
+}
+
+#enquete-form input[type="radio"] {
+  accent-color: #a64cff;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.mais-baixo {
+    margin-top: 10px;
+}
